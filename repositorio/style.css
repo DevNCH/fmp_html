@@ -2,7 +2,14 @@
 
 html {
     background-color: #000000;
-    font-family: 'Roboto Mono';
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#formato {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 70%;
+    grid-column-gap: 8px;
 }
 
 .divs {
@@ -13,14 +20,25 @@ html {
     margin-top: 10px;
 }
 
-#div_titulo {
+#titulo {
     border-radius: 20px;
     padding: 5px;
     margin-left: 40%;
     margin-right: 40%;
 }
 
-ul {
+#redes_sociais ul {
     list-style-type: none;
     padding: 0px;
+}
+
+#dados_pessoais ul {
+    list-style-type: none;
+    padding-inline-start: 20px;
+    text-align: left;
+}
+
+#sobre_mim img {
+    width: 200px;
+
 }
